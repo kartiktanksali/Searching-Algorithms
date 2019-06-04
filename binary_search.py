@@ -15,7 +15,7 @@ ele = int(input("Enter the element to be searched: "))
 
 
 start = 0
-end = len(lst)
+end = len(lst)-1
 flag = False
 while(start <= end):
     mid = int(start + (end-start) /2)
