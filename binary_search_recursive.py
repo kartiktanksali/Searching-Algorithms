@@ -5,11 +5,7 @@ Created on Mon Jun  3 22:45:00 2019
 
 @author: kartiktanksali
 """
-
-
-
-
-
+#Binary Search Recursive method
 
 def binarySearch(lst,start,end,ele):
     mid = int(start + (end-start)/2)
